@@ -1,0 +1,18 @@
+{
+    "name": "tencent/tsf",
+    "description": "Tencent Server Framework written in php",
+    "license": "MIT",
+    "minimum-stability": "stable",
+	"require": {
+        "josegonzalez/dotenv": "2.*",
+        "mongodb/mongodb": "^1.1",
+        "nikic/fast-route": "^1.2",
+        "respect/validation": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TSF\\": "TSF/"
+        },
+        "files": ["TSF/Support/Helper.php"]
+    }
+}
